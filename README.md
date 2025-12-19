@@ -49,7 +49,6 @@ This script:
 No fake rendering — **real commits, real graph**.
 
 
-
 ## 🚀 How To Use
 
 ### 1️⃣ Clone This Repository
@@ -80,6 +79,11 @@ Steps:
 - Download `pattern.json`  
 - Place it in this repository by replacing old "pattern.json" 
 
+#### 🖼 Website Generated Pattern Example
+Here’s what a generated pattern looks like and remember to download:
+
+![Website Pattern Example](assets/web-example.png)
+
 
 ### 3️⃣ Configure Git Identity (IMPORTANT)
 
@@ -95,6 +99,8 @@ git config user.email "your-email@users.noreply.github.com"
 ```bash
 python script.py
 ```
+Now, Script will ask for inwhich year want to draw your pattern 
+> Enter year to draw pattern: 2024
 
 This will:
 - Create multiple commits  
@@ -145,14 +151,17 @@ Please read **CONTRIBUTING.md** for guidelines on:
 - Submitting pull requests  
 
 All contributions are welcome ❤️
+ 
+
+## 📜 License
+
+This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
 
 
-## ⭐ Support & Motivation
 
-If this project helped you:
-- ⭐ Star the repository  
-- 🔁 Share it with friends  
-- 🐛 Report bugs or ideas  
+## ❤️ Credits
 
-Thank you for checking this out —  
-**Happy Coding & Keep Building 🚀**
+Made with ❤️ by **Aura Farmer**  
+If you find this project useful, consider giving it a ⭐ on GitHub!
+
+
