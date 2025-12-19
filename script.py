@@ -28,7 +28,7 @@ def loading_animation(duration=3):
     end_time = time.time() + duration
     i = 0
 
-    sys.stdout.write("Initializing GitHub Pattern Committer ")
+    sys.stdout.write("\nInitializing GitHub Pattern Committer ")
     sys.stdout.flush()
 
     while time.time() < end_time:
@@ -38,15 +38,19 @@ def loading_animation(duration=3):
         sys.stdout.write("\b")
         i += 1
 
-    print("✔")
+    print("☑️")
 
 
 # -------------------------------
 # Credit Banner (Start)
 # -------------------------------
 def show_start_credit():
-    print("""
-🎨 GitHub Contribution Graph Hack
+    print(r"""
+          
+┏┓• ┓┏  ┓   ┏┓        •   ┓   ┓ 
+┃┓┓╋┣┫┓┏┣┓  ┃ ┏┓┏┳┓┏┳┓┓╋  ┃ ┏┓┣┓
+┗┛┗┗┛┗┗┻┗┛  ┗┛┗┛┛┗┗┛┗┗┗┗  ┗┛┗┻┗┛                       
+
 Created by Aura Farmer
 GitHub: https://github.com/aurafarmerone
 ----------------------------------------
@@ -57,16 +61,30 @@ GitHub: https://github.com/aurafarmerone
 # Credit Banner (End)
 # -------------------------------
 def show_end_credit():
-    print("""
+    print(r"""
+          
+┳┳┓┳┏┓┏┓┳┏┓┳┓  ┏┓┏┓┏┓┏┓┏┓┳┓  ╻
+┃┃┃┃┗┓┗┓┃┃┃┃┃  ┃┃┣┫┗┓┗┓┣ ┃┃  ┃
+┛ ┗┻┗┛┗┛┻┗┛┛┗  ┣┛┛┗┗┛┗┛┗┛┻┛  •
+                                                        
+
+☑️ History Has Been Rewritten.  
+☑️ The Timeline Has Changed.
+☑️ Success! Pretend This Was Hard.           
+
 ----------------------------------------
 ⭐ If you like this project, give it a star on GitHub!
-👉 https://github.com/aurafarmerone
+👉 https://github.com/aurafarmerone/github-contribution-graph-hack
 
-Made with ❤️ by Aura Farmer
+Made with ❤️  by Aura Farmer
 ----------------------------------------
 """)
 
 
+
+# -------------------------------
+# Git Commit (FIXED)
+# -------------------------------
 def git_commit(message, commit_date):
     subprocess.run(["git", "add", FILE_PATH], check=True)
 
@@ -77,10 +95,20 @@ def git_commit(message, commit_date):
     env["GIT_COMMITTER_DATE"] = date_str
 
     subprocess.run(
-        ["git", "commit", "-m", message, "--date", date_str],
+        [
+            "git",
+            "commit",
+            "--allow-empty",   # ✅ FIX: allows commit even if no file changes
+            "-m",
+            message,
+            "--date",
+            date_str
+        ],
         env=env,
         check=True
     )
+
+    print(f"{message} successful ✔️")
 
 
 def git_push():
@@ -119,7 +147,6 @@ def make_commits_from_pattern(year):
                 with open(FILE_PATH, "w") as f:
                     f.write(msg)
 
-                print(msg)
                 git_commit(msg, commit_date)
 
     git_push()
@@ -132,7 +159,7 @@ if __name__ == "__main__":
     loading_animation(3)
     show_start_credit()
 
-    year = int(input("Enter year to draw pattern: "))
+    year = int(input("👉 Enter year to draw pattern 📆 ➤ "))
     make_commits_from_pattern(year)
 
     show_end_credit()
