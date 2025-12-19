@@ -79,8 +79,100 @@ Here’s what a generated pattern looks like and remember to download:
 
 
 
+## 2️⃣ Create a New GitHub Repository
+
+- Create a **new public repository** on GitHub
+- This repository will be used to generate contribution commits
+- Prefer using an **empty repo**
+
+Clone it locally:
+
+```bash
+git clone <your-new-repo-url>
+cd <your-new-repo-name>
+```
 
 
+## 3️⃣ Clone the Tool Repository (Temporary)
+
+Clone the tool repository to get the required script files:
+
+```bash
+git clone https://github.com/aurafarmerone/github-contribution-graph-hack.git
+```
+
+This repository contains:
+
+* Commit generation script
+* Supporting files
+
+
+## 4️⃣ Move Required Files Into Your Repo
+
+* Copy the required script files from the cloned tool repository
+* Paste them into **your new repository directory**
+* Ensure the script file is present in the repo root
+
+⚠️ **Important**
+After copying files:
+
+* **Delete the cloned tool repository**
+* This avoids `.git` conflicts and unexpected errors
+
+
+## 5️⃣ Replace `pattern.json`
+
+* Delete the existing `pattern.json`
+* Paste your downloaded `pattern.json`
+* Ensure the filename is exactly:
+
+```text
+pattern.json
+```
+
+
+## 6️⃣ Push Initial Setup to GitHub
+
+Before running the script, push the setup:
+
+```bash
+git add .
+git commit -m "Initial setup for contribution pattern"
+git push origin main
+```
+
+
+## 7️⃣ Run the Script
+
+Run the script:
+
+```bash
+python script.py
+```
+
+When prompted, enter the year:
+
+```text
+Enter year to draw pattern: 2023
+```
+
+This will:
+
+* Generate real commits
+* Assign past dates
+* Encode your pattern into the GitHub contribution graph
+
+⏳ Execution time depends on pattern size.
+
+
+
+## 8️⃣ View Result on GitHub 🎉
+
+* Open your GitHub profile
+* Scroll to **Contribution Graph**
+* Your custom pattern will appear as green dots
+
+⏰ GitHub may take a few minutes to update.
 
 
 ## 📺 **Full YouTube Walkthrough** 
