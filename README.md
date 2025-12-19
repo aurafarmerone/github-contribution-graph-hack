@@ -28,7 +28,6 @@ it just helps you **experiment, learn, and have fun** with how GitHub graphs wor
 
 
 ## 🖼 Example Output
-
 Here’s what a generated pattern looks like on a GitHub profile:
 
 ![Contribution Graph Example](assets/patternBeforeAfter.png)
@@ -67,11 +66,12 @@ This script **requires a pattern file**.
 
 You can generate it using my pattern generator website or from my repository:
 
-🌐 **GitHub Pattern Generator**  
+ 🌐 **GitHub Pattern Generator**  
 👉 https://github-pattern-generator.web.app/
 
 **OR**
-🌐 **GitHub Pattern Generator REPOSITORY**  
+
+ 🌐 **GitHub  REPOSITORY**  
 👉 https://github.com/aurafarmerone/github-pattern-generator
 
 Steps:
