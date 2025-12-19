@@ -5,7 +5,7 @@ This is an **open-source, educational, and creative project** built to explore G
 
 All kinds of contributions are welcome — from UI ideas to core logic improvements.
 
----
+
 
 ## 🌟 What You Can Contribute
 
@@ -32,7 +32,7 @@ You can help improve this project in many ways:
 - Add examples of `pattern.json`
 - Fix typos or unclear explanations
 
----
+
 
 ## 🛠️ Getting Started
 
@@ -55,7 +55,7 @@ Good branch name examples:
 - `feature/dry-run-mode`
 - `enhancement/cli-flags`
 
----
+
 
 ## 💻 Development Guidelines
 
@@ -65,7 +65,7 @@ Good branch name examples:
 - Ensure commits created by the script remain **legitimate Git commits**
 - Do **not** add anything that violates GitHub’s Terms of Service
 
----
+
 
 ## ✅ Commit Message Guidelines
 
@@ -76,7 +76,7 @@ Use clear and meaningful commit messages:
 - `refactor: simplify commit loop`
 - `docs: update README examples`
 
----
+
 
 ## 🧪 Testing Your Changes
 
@@ -87,7 +87,7 @@ Before opening a Pull Request:
 - Confirm no unintended commits are created
 - Ensure the script runs without errors
 
----
+
 
 ## 📤 Submitting a Pull Request
 
@@ -100,7 +100,7 @@ Before opening a Pull Request:
 
 Screenshots or logs are appreciated when relevant.
 
----
+
 
 ## 📜 Code of Conduct
 
@@ -108,13 +108,12 @@ Screenshots or logs are appreciated when relevant.
 - Welcome beginners and first-time contributors
 - No harassment, spam, or abusive behavior
 
----
 
 ## ⚠️ Disclaimer
 
 This project generates **real Git commits** with custom dates for **educational and artistic purposes only**. Contributors must ensure their changes do not encourage misuse or abuse.
 
----
+
 
 ## 🙌 Thank You
 

@@ -100,7 +100,13 @@ git config user.email "your-email@users.noreply.github.com"
 python script.py
 ```
 Now, Script will ask for inwhich year want to draw your pattern 
-> Enter year to draw pattern: 2024
+> Enter year inwhich you want to see changes
+
+```bash
+
+Enter year to draw pattern: 2024
+
+```
 
 This will:
 - Create multiple commits  
