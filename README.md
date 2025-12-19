@@ -51,15 +51,8 @@ No fake rendering — **real commits, real graph**.
 
 ## 🚀 How To Use
 
-### 1️⃣ Clone This Repository
 
-```bash
-git clone https://github.com/aurafarmerone/github-contribution-graph-hack.git
-cd github-contribution-graph-hack
-```
-
-
-### 2️⃣ Generate `pattern.json`
+### 1️⃣ Generate `pattern.json`
 
 This script **requires a pattern file**.
 
@@ -85,44 +78,8 @@ Here’s what a generated pattern looks like and remember to download:
 ![Website Pattern Example](assets/web-example.png)
 
 
-### 3️⃣ Configure Git Identity (IMPORTANT)
-
-Your commit email must match your GitHub account:
-
-```bash
-git config user.name "Your Name"
-git config user.email "your-email@users.noreply.github.com"
-```
-
-### 4️⃣ Run the Script
-
-```bash
-python script.py
-```
-Now, Script will ask for inwhich year want to draw your pattern 
-> Enter year inwhich you want to see changes
-
-```bash
-
-Enter year to draw pattern: 2024
-
-```
-
-This will:
-- Create multiple commits  
-- Assign historical dates  
-- Encode your pattern into the contribution graph  
 
 
-### 5️⃣ Push Commits to GitHub
-
-```bash
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/github-contribution-graph-hack.git
-git push -u origin main
-```
-
-⏳ Wait **5–15 minutes**, then check your GitHub profile.
 
 
 
