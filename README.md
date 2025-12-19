@@ -75,7 +75,7 @@ Steps:
 #### 🖼 Website Generated Pattern Example
 Here’s what a generated pattern looks like and remember to download:
 
-![Website Pattern Example](assets/web-example.png)
+![Website Pattern Example](#)
 
 
 
