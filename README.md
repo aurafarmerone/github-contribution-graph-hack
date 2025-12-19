@@ -1,4 +1,4 @@
-# 🟩 GitHub Contribution Commit Graph Hack
+# 🧠 GitHub Contribution Commit Graph Hack
 
 Create **custom patterns, text, or designs** on your GitHub contribution graph using automated commits.
 
