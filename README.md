@@ -178,9 +178,9 @@ This will:
 ## 📺 **Full YouTube Walkthrough** 
 ### 🎥 Video Tutorial
 
-[![GitHub Contribution Graph Hack Tutorial](assets/thumbnail.png)](https://www.youtube.com/watch?v=ekk1_MQ9JfQ)
+[![GitHub Contribution Graph Hack Tutorial](assets/thumbnail.png)](https://youtu.be/OQpGpr-m42s)
 
-👉 Video Link: https://www.youtube.com/watch?v=ekk1_MQ9JfQ
+👉 Video Link: https://youtu.be/OQpGpr-m42s
 
 
 
