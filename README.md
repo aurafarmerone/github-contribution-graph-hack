@@ -61,10 +61,6 @@ You can generate it using my pattern generator website or from my repository:
  🌐 **GitHub Pattern Generator**  
 👉 https://github-pattern-generator.web.app/
 
-**OR**
-
- 🌐 **GitHub  REPOSITORY**  
-👉 https://github.com/aurafarmerone/github-pattern-generator
 
 Steps:
 - Open the website  
